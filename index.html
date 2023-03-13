@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet">
+	<title>Twitter Clone</title>
+</head>
+<body>
+	
+	<div class="sidebar">
+		<i class="fab fa-twitter" ></i>
+		<div class="home active">
+			<span class="material-icons">home</span>
+			 <h3>HOME</h3>
+		</div>
+		<div class="home">
+        <span class="material-icons"> search </span>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="home">
+        <span class="material-icons"> notifications_none </span>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="home">
+        <span class="material-icons"> mail_outline </span>
+        <h2>Messages</h2>
+      </div>
+
+      <div class="home">
+        <span class="material-icons"> bookmark_border </span>
+        <h2>Bookmarks</h2>
+      </div>
+
+      <div class="home">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="home">
+        <span class="material-icons"> perm_identity </span>
+        <h2>Profile</h2>
+      </div>
+
+      <div class="home">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+       <button class="btn">Tweet</button>
+		
+	</div>
+
+  <!--SIDEBAR ENDS------------------->
+  <div class="feed">
+    <div class="words word-1" >
+      <span>T</span>
+      <span>W</span>
+      <span>I</span>
+      <span>T</span>
+      <span>T</span>
+      <span>E</span>
+      <span>R</span>
+    </div>
+    <div class="tweetbox">
+      <form>
+        <div class="inputs">
+          <img src="panther.png" alt="image">
+          <input type="text" placeholder="Enter your text here?" >
+        </div>
+        <button class="btn" style="margin-left: 120px;">TWEET</button>
+      </form>
+   
+
+  </div>
+  <!--POST STARTS---------->
+  <div class="post">
+    <div class="post_img">
+           <img src="panther.png">
+    </div>
+    <div class="post_body">
+      <div class="post_header">
+        <div class="post_headerText">
+          <h3 style="font-size: 15px;margin-bottom: 5px;">Dwayne Johnson
+           <span class="" style="font-weight: 600; font-size: 12px;color: gray">
+            <span class="material-icons post_badge">verified</span>
+          @Dwayne Johnson 
+           </span>
+          </h3>
+
+        </div>
+        <div style="margin-bottom: 10px;font-size: 15px;">
+                 <p>Lorem ipsum dolor colloar polahd whhd ddhd</p>
+        </div>
+        <!-- <img src="Tesla.jpg" style="    width: 450px; object-fit: contain;border-radius: 20px;"> -->
+        <ul>
+          <li>
+            <div class="posts"><img src="panther.png"></div>
+            <div class="shadow"></div>
+          </li>
+        </ul>
+        
+        <div style="display: flex;justify-content: space-between; margin-top: 10px;">
+           <span class="material-icons ">repeat</span>
+           <span class="material-icons"> favorite_border</span>
+           <span class="material-icons">publish</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-------SECOND POST-->
+
+  <div class="post">
+    <div class="post_img">
+           <img src="panther.png">
+    </div>
+    <div class="post_body">
+      <div class="post_header">
+        <div class="post_headerText">
+          <h3 style="font-size: 15px;margin-bottom: 5px;">Ethan Hunt
+           <span class="" style="font-weight: 600; font-size: 12px;color: gray">
+            <span class="material-icons post_badge">verified</span>
+          @Ethan Hunt 
+           </span>
+          </h3>
+
+        </div>
+        <div style="margin-bottom: 10px;font-size: 15px;">
+                 <p>Lorem ipsum dolor colloar polahd whhd ddhd</p>
+        </div>
+        <!-- <img src="legend.png" style="    width: 450px; object-fit: contain;border-radius: 20px;"> -->
+        <ul>
+          <li>
+            <div class="posts"><img src="panther.png"></div>
+            <div class="shadow"></div>
+          </li>
+        </ul>
+        <div style="display: flex;justify-content: space-between; margin-top: 10px;">
+           <span class="material-icons ">repeat</span>
+           <span class="material-icons"> favorite_border</span>
+           <span class="material-icons">publish</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!------------THIRD POST------->
+
+  <div class="post">
+    <div class="post_img">
+           <img src="panther.png">
+    </div>
+    <div class="post_body">
+      <div class="post_header">
+        <div class="post_headerText">
+          <h3 style="font-size: 15px;margin-bottom: 5px;">SuperMan
+           <span class="" style="font-weight: 600; font-size: 12px;color: gray">
+            <span class="material-icons post_badge">verified</span>
+          @SuperMan 
+           </span>
+          </h3>
+
+        </div>
+        <div style="margin-bottom: 10px;font-size: 15px;">
+                 <p>Lorem ipsum dolor colloar polahd whhd ddhd</p>
+        </div>
+        <!-- <img src="superman.jpg" style="    width: 450px; object-fit: contain;border-radius: 20px;"> -->
+        <ul>
+          <li>
+            <div class="posts"><img src="panther.png"></div>
+            <div class="shadow"></div>
+          </li>
+        </ul>
+        <div style="display: flex;justify-content: space-between; margin-top: 10px;">
+           <span class="material-icons ">repeat</span>
+           <span class="material-icons"> favorite_border</span>
+           <span class="material-icons">publish</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!------------------FOURTH POST----------->
+  <div class="post">
+    <div class="post_img">
+           <img src="panther.png">
+    </div>
+    <div class="post_body">
+      <div class="post_header">
+        <div class="post_headerText">
+          <h3 style="font-size: 15px;margin-bottom: 5px;">wolverine
+           <span class="" style="font-weight: 600; font-size: 12px;color: gray">
+            <span class="material-icons post_badge">verified</span>
+          @wolverine 
+           </span>
+          </h3>
+
+        </div>
+        <div style="margin-bottom: 10px;font-size: 15px;">
+                 <p>Lorem ipsum dolor colloar polahd whhd ddhd</p>
+        </div>
+        <!-- <img src="wolverine.jpg" style="    width: 450px; object-fit: contain;border-radius: 20px;"> -->
+        <ul>
+          <li>
+            <div class="posts"><img src="panther.png"></div>
+            <div class="shadow"></div>
+          </li>
+        </ul>
+        <div style="display: flex;justify-content: space-between; margin-top: 10px;">
+           <span class="material-icons ">repeat</span>
+           <span class="material-icons"> favorite_border</span>
+           <span class="material-icons">publish</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------------------------FIFTH POST--------->
+
+
+
+  <div class="post">
+    <div class="post_img">
+           <img src="panther.png">
+    </div>
+    <div class="post_body">
+      <div class="post_header">
+        <div class="post_headerText">
+          <h3 style="font-size: 15px;margin-bottom: 5px;">Tom Cruise
+           <span class="" style="font-weight: 600; font-size: 12px;color: gray">
+            <span class="material-icons post_badge">verified</span>
+          @Tom Cruise 
+           </span>
+          </h3>
+
+        </div>
+        <div style="margin-bottom: 10px;font-size: 15px;">
+                 <p>Lorem ipsum dolor colloar polahd whhd ddhd</p>
+        </div>
+        <!-- <img src="cruise.jpg" style="    width: 450px; object-fit: contain;border-radius: 20px;"> -->
+        <ul>
+          <li>
+            <div class="posts"><img src="panther.png"></div>
+            <div class="shadow"></div>
+          </li>
+        </ul>
+        <div style="display: flex;justify-content: space-between; margin-top: 10px;">
+           <span class="material-icons ">repeat</span>
+           <span class="material-icons"> favorite_border</span>
+           <span class="material-icons">publish</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------SIXTH POST------------>
+
+  <div class="post">
+    <div class="post_img">
+           <img src="panther.png">
+    </div>
+    <div class="post_body">
+      <div class="post_header">
+        <div class="post_headerText">
+          <h3 style="font-size: 15px;margin-bottom: 5px;">Tom Cruise
+           <span class="" style="font-weight: 600; font-size: 12px;color: gray">
+            <span class="material-icons post_badge">verified</span>
+          @Tom Cruise 
+           </span>
+          </h3>
+
+        </div>
+        <div style="margin-bottom: 10px;font-size: 15px;">
+                 <p>Lorem ipsum dolor colloar polahd whhd ddhd</p>
+        </div>
+        <!-- <img src="cruise.jpg" style="    width: 450px; object-fit: contain;border-radius: 20px;"> -->
+        <ul>
+          <li>
+            <div class="posts"><img src="panther.png"></div>
+            <div class="shadow"></div>
+          </li>
+        </ul>
+        <div style="display: flex;justify-content: space-between; margin-top: 10px;">
+           <span class="material-icons ">repeat</span>
+           <span class="material-icons"> favorite_border</span>
+           <span class="material-icons">publish</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-----SEVENTH POST------------------->
+  <div class="post">
+    <div class="post_img">
+           <img src="panther.png">
+    </div>
+    <div class="post_body">
+      <div class="post_header">
+        <div class="post_headerText">
+          <h3 style="font-size: 15px;margin-bottom: 5px;">Tom Cruise
+           <span class="" style="font-weight: 600; font-size: 12px;color: gray">
+            <span class="material-icons post_badge">verified</span>
+          @Tom Cruise 
+           </span>
+          </h3>
+
+        </div>
+        <div style="margin-bottom: 10px;font-size: 15px;">
+                 <p>Lorem ipsum dolor colloar polahd whhd ddhd</p>
+        </div>
+        <!-- <img src="cruise.jpg" style="    width: 450px; object-fit: contain;border-radius: 20px;"> -->
+        <ul>
+          <li>
+            <div class="posts"><img src="panther.png"></div>
+            <div class="shadow"></div>
+          </li>
+        </ul>
+        <div style="display: flex;justify-content: space-between; margin-top: 10px;">
+           <span class="material-icons ">repeat</span>
+           <span class="material-icons"> favorite_border</span>
+           <span class="material-icons">publish</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+   <!-----WIDGET STARTS------------------>
+
+   <div class="widgets">
+    <div class="widgets__input">
+      <span class="material-icons widgets__searchIcon"> search </span>
+      <input type="text" placeholder="Search Twitter" />
+    </div>
+
+    <div class="widgets__widgetContainer">
+      <h2>What's happening?</h2>
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">
+          Sunsets don&#39;t get much better than this one over
+          <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>.
+          <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw"
+            >#nature</a
+          >
+          <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw"
+            >#sunset</a
+          >
+          <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+        </p>
+        &mdash; US Department of the Interior (@Interior)
+        <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw"
+          >May 5, 2014</a
+        >
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+
+
+
+  <script src="script.js"></script>
+  
+  
+  
+  
+
+
+   
+</body>
+</html>
